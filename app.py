@@ -131,7 +131,7 @@ for _, row in gdf.iterrows():
         popup=popup,  # Using the _meanRCI column
     ).add_to(m)
 
-st.title("Emali Farm  Dashboard")
+st.title("Emali Avocado Farm  Dashboard")
 map_row = st.container()
 with map_row:
     # Render the map in the Streamlit app
